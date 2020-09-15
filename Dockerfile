@@ -14,8 +14,8 @@ RUN mv /app/node_modules /node_modules
 
 COPY . /app
 
-ENV PORT 80
-EXPOSE 80
+ENV PORT 8083
+EXPOSE 8083
 
 CMD ["node", "src/main.js"]
 
